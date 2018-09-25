@@ -16,5 +16,5 @@ console.log("New string is ",replaceLetterOnStringInEachWorld(sourceString,4,"aa
 const sourceStringOneWord = "BlackList";
 console.log("New string is ",replaceLetterOnStringInEachWorld(sourceStringOneWord,1,"Track1"));
 
-const sourceStringSpecSymbols = "Black, White and yellow - colors!!!";
+const sourceStringSpecSymbols = "Black, White and    yellow - colors!!!";
 console.log("New string is ",replaceLetterOnStringInEachWorld(sourceStringSpecSymbols,1,"s!"));
