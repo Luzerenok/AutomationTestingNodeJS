@@ -1,0 +1,7 @@
+"flag" property is not boolean
+"screenshot" property is not null
+"allElementsText" property is not string in total
+"counter" property is not number in total
+"config" property does not equal "Common"
+"constKey" property does not equal "FiRst"
+"description" property length is <=5 or >=13

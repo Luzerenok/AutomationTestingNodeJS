@@ -1,0 +1,6 @@
+"myPromises" property is not array
+"screenshot" property is not null
+"elementText" property is not string
+"config" property does not equal "Common"
+"constKey" property does not equal "FiRst"
+"description" property length is <=5 or >=13

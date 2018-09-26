@@ -66,7 +66,7 @@ const isJsonCorrect = (filePath) => {
         console.log("OK");
     }
     else {
-        let newFilePath = filePath.split('.json') + '_error.json';
+        let newFilePath = filePath.split('.json') + 'error.json';
         fs.writeFile(newFilePath, newJsonString, 'utf8');
     }
 };

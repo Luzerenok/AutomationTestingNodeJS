@@ -1,0 +1,7 @@
+"flag" property is not boolean
+"element" property is not object
+"allElementsText" property does not contain "const" in string
+"config" property does not equal "Common"
+"constKey" property does not equal "FiRst"
+"parameters" array size does not equal 8
+"description" property length is <=5 or >=13
