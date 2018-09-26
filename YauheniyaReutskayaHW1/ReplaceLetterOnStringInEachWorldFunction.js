@@ -1,11 +1,17 @@
 const replaceLetterOnStringInEachWorld = (sourceString, numberOfLetter, replacementString) => {
     let newString = "";
 
-    let words = sourceString.split(" ");
-    for (let i = 0; i < words.length; i++) {
-        newString += words[i].replace(words[i][numberOfLetter - 1], replacementString);
-        if (1 !== words.length || i !== words.length - 1) {
-            newString += " ";
+    let numberOfLetterInWord = 1;
+    for (let i = 0; i < sourceString.length; i++) {
+        if (numberOfLetterInWord === numberOfLetter && sourceString[i] !== " ") {
+            newString += replacementString;
+        }
+        else {
+            newString += sourceString[i];
+        }
+        numberOfLetterInWord++;
+        if (sourceString[i] === " ") {
+            numberOfLetterInWord = 1;
         }
     }
     return newString;
