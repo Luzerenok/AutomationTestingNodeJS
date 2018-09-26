@@ -1,5 +1,6 @@
 const isPalindrom = require("./PalindromeFunction.js");
 const replaceLetterOnStringInEachWorld = require("./ReplaceLetterOnStringInEachWorldFunction.js");
+const isJsonCorrect = require("./IsCorrectJsonFunction.js");
 
 //Home Task 2
 const nonPalindromString = "AMA AN";
@@ -18,3 +19,9 @@ console.log("New string is ", replaceLetterOnStringInEachWorld(sourceStringOneWo
 
 const sourceStringSpecSymbols = "Black, White and    yellow - colors!!!";
 console.log("New string is ", replaceLetterOnStringInEachWorld(sourceStringSpecSymbols, 2, "s!"));
+
+//Home Task 4
+isJsonCorrect("Task4/1.json");
+isJsonCorrect("Task4/2.json");
+isJsonCorrect("Task4/3.json");
+isJsonCorrect("Task4/4.json");
