@@ -1,0 +1,645 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Header",
+    "line": 2,
+    "id": "header",
+    "tags": [
+      {
+        "name": "@header",
+        "line": 1
+      }
+    ],
+    "uri": "features\\header.feature",
+    "elements": [
+      {
+        "id": "header;verify-that-user-is-able-to-see-all-necessary-elements-at-the-header-on-home-page",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Verify that user is able to see all necessary elements at the Header on Home Page",
+        "tags": [
+          {
+            "name": "@header",
+            "line": 1
+          },
+          {
+            "name": "@smoke",
+            "line": 8
+          },
+          {
+            "name": "@ticket_01",
+            "line": 9
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "step_definitions\\hooks.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9305000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I Disable protractor synchronization",
+            "match": {
+              "location": "step_definitions\\actionSteps.js:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I should be on \"Home\" page",
+            "match": {
+              "location": "step_definitions\\validationSteps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "Element \"HomePage > Header > HeaderLogo\" should be visible",
+            "match": {
+              "location": "step_definitions\\validationSteps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 154000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "Element \"HomePage > Header > SolutionButton\" should be visible",
+            "match": {
+              "location": "step_definitions\\validationSteps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 126000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "Element \"HomePage > Header > OurWorkButton\" should be visible",
+            "match": {
+              "location": "step_definitions\\validationSteps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 116000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "Element \"HomePage > Header > AboutButton\" should be visible",
+            "match": {
+              "location": "step_definitions\\validationSteps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 112000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "Element \"HomePage > Header > NewsButton\" should be visible",
+            "match": {
+              "location": "step_definitions\\validationSteps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 115000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "Element \"HomePage > Header > ContactButton\" should be visible",
+            "match": {
+              "location": "step_definitions\\validationSteps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 112000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "Element \"HomePage > Header > CallUsNumber\" should be visible",
+            "match": {
+              "location": "step_definitions\\validationSteps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 117000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "Element \"HomePage > Header > LanguageBlock\" should be visible",
+            "match": {
+              "location": "step_definitions\\validationSteps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 124000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "step_definitions\\hooks.js:15"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "header;verify-that-user-is-able-to-see-all-items-in-all-dropdowns-on-the-header",
+        "keyword": "Scenario",
+        "line": 29,
+        "name": "Verify that user is able to see all items in all dropdowns on the Header",
+        "tags": [
+          {
+            "name": "@header",
+            "line": 1
+          },
+          {
+            "name": "@smoke",
+            "line": 20
+          },
+          {
+            "name": "@ticket_02",
+            "line": 21
+          },
+          {
+            "name": "@seeAllItems",
+            "line": 21
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "step_definitions\\hooks.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5409000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I Disable protractor synchronization",
+            "match": {
+              "location": "step_definitions\\actionSteps.js:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I should be on \"Home\" page",
+            "match": {
+              "location": "step_definitions\\validationSteps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "I hover mouse over \"HomePage > Header > SolutionButton\"",
+            "match": {
+              "location": "step_definitions\\mouseItarationSteps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 116000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "Collection \"HomePage > Header > SolutionsDropdownItems\" should be visible",
+            "match": {
+              "location": "step_definitions\\validationSteps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 554000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "Count of \"HomePage > Header > SolutionsDropdownItems\" elements should be equal \"9\"",
+            "match": {
+              "location": "step_definitions\\validationSteps.js:57"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 46000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "step_definitions\\hooks.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "header;verify-that-user-is-able-to-see-all-items-in-all-dropdowns-on-the-header",
+        "keyword": "Scenario",
+        "line": 30,
+        "name": "Verify that user is able to see all items in all dropdowns on the Header",
+        "tags": [
+          {
+            "name": "@header",
+            "line": 1
+          },
+          {
+            "name": "@smoke",
+            "line": 20
+          },
+          {
+            "name": "@ticket_02",
+            "line": 21
+          },
+          {
+            "name": "@seeAllItems",
+            "line": 21
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "step_definitions\\hooks.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3459000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I Disable protractor synchronization",
+            "match": {
+              "location": "step_definitions\\actionSteps.js:45"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I should be on \"Home\" page",
+            "match": {
+              "location": "step_definitions\\validationSteps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "I hover mouse over \"HomePage > Header > OurWorkButton\"",
+            "match": {
+              "location": "step_definitions\\mouseItarationSteps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 97000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "Collection \"HomePage > Header > OurWorkDropdownItems\" should be visible",
+            "match": {
+              "location": "step_definitions\\validationSteps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 398000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "Count of \"HomePage > Header > OurWorkDropdownItems\" elements should be equal \"6\"",
+            "match": {
+              "location": "step_definitions\\validationSteps.js:57"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 51000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "step_definitions\\hooks.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "header;verify-that-user-is-able-to-see-all-items-in-all-dropdowns-on-the-header",
+        "keyword": "Scenario",
+        "line": 31,
+        "name": "Verify that user is able to see all items in all dropdowns on the Header",
+        "tags": [
+          {
+            "name": "@header",
+            "line": 1
+          },
+          {
+            "name": "@smoke",
+            "line": 20
+          },
+          {
+            "name": "@ticket_02",
+            "line": 21
+          },
+          {
+            "name": "@seeAllItems",
+            "line": 21
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "step_definitions\\hooks.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3511000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I Disable protractor synchronization",
+            "match": {
+              "location": "step_definitions\\actionSteps.js:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I should be on \"Home\" page",
+            "match": {
+              "location": "step_definitions\\validationSteps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "I hover mouse over \"HomePage > Header > AboutButton\"",
+            "match": {
+              "location": "step_definitions\\mouseItarationSteps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 131000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "Collection \"HomePage > Header > AboutDropdownItems\" should be visible",
+            "match": {
+              "location": "step_definitions\\validationSteps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 261000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "Count of \"HomePage > Header > AboutDropdownItems\" elements should be equal \"4\"",
+            "match": {
+              "location": "step_definitions\\validationSteps.js:57"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 55000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "step_definitions\\hooks.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "header;verify-that-user-is-able-to-see-all-items-in-all-dropdowns-on-the-header",
+        "keyword": "Scenario",
+        "line": 32,
+        "name": "Verify that user is able to see all items in all dropdowns on the Header",
+        "tags": [
+          {
+            "name": "@header",
+            "line": 1
+          },
+          {
+            "name": "@smoke",
+            "line": 20
+          },
+          {
+            "name": "@ticket_02",
+            "line": 21
+          },
+          {
+            "name": "@seeAllItems",
+            "line": 21
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "step_definitions\\hooks.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3583000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I Disable protractor synchronization",
+            "match": {
+              "location": "step_definitions\\actionSteps.js:45"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I should be on \"Home\" page",
+            "match": {
+              "location": "step_definitions\\validationSteps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "I hover mouse over \"HomePage > Header > NewsButton\"",
+            "match": {
+              "location": "step_definitions\\mouseItarationSteps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 99000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "Collection \"HomePage > Header > NewsDropdownItems\" should be visible",
+            "match": {
+              "location": "step_definitions\\validationSteps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 228000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "Count of \"HomePage > Header > NewsDropdownItems\" elements should be equal \"3\"",
+            "match": {
+              "location": "step_definitions\\validationSteps.js:57"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 61000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "step_definitions\\hooks.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

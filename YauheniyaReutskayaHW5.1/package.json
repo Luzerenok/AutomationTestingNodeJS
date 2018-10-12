@@ -1,0 +1,26 @@
+{
+  "name": "exadel_cucumber_protractor_framework",
+  "version": "0.0.1",
+  "description": "* `npm run update` * `npm run pre-e2e` * `npm run e2e -- --tag \"@someTag\"` OR `npm run e2e` (that command will run all tests)",
+  "scripts": {
+    "update": "webdriver-manager update",
+    "e2e": "protractor protractor.config.js",
+    "pre-e2e": "webdriver-manager start"
+  },
+  "dependencies": {
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "protractor": "^5.3.0",
+    "protractor-cucumber-framework": "^4.2.0",
+    "yargs": "^9.0.1"
+  },
+  "devDependencies": {
+    "cucumber": "^4.1.0",
+    "cucumber-html-reporter": "2.0.3",
+    "eslint": "^3.13.1"
+  },
+  "main": "protractor.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
